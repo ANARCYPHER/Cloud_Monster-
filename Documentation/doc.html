@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP CloudMonster Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="scribbler-global.css">
+    <link rel="stylesheet" href="scribbler-doc.css">
+    <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <div class="doc__bg"></div>
+    <nav class="header">
+      <h1 class="logo">CloudMonster <span class="logo__thin">Documentation</span></h1>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="https://phpcloudmonster.com" target="_blank" class="link link--dark"><i class="fa fa-home"></i> Official Site</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <aside class="doc__nav">
+        <ul>
+          <li class="js-btn selected">Get Started</li>
+          <li class="js-btn">Installation</li>
+          <li class="js-btn">Setup Drives</li>
+        
+          <li class="js-btn">Support</li>
+          <li class="js-btn">FAQ</li>
+          <li class="js-btn">Final Note</li>
+         
+        </ul>
+      </aside>
+      <article class="doc__content">
+
+        <section class="js-section">
+          <h3 class="section__title">Get Started</h3>
+          <p>
+            Thank you for purchasing cloudmonster. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!
+          </p>
+      
+
+        </section>
+      
+        <section class="js-section">
+      
+          <h3 class="section__title">Installation</h3>
+          <p>The installation is pretty easy, please follow the steps below.</p>
+
+          <h4>Step 01:</h4>
+
+          <ul>
+            <li>
+              Upload all files/folders located inside "Script" folder to your server. (Don't upload Script folder, upload what inside it) as shown below. 
+<br><br>
+<img src="images/screenshots/script-dir-preview.PNG" alt=""> <br><br>
+            </li>
+            <li>Open your browser, and go to http://www.YOURSITE.com</li>
+            <li>You will automatically redirect to installation page</li>
+          </ul>
+
+          <h4>Step 02:</h4>
+
+          <ul>
+            <li>Please make sure your server meets the following requirements <br><br>
+
+              <ul>
+                <li>PHP 8.0+</li>
+                <li>MySQLi Extension</li>
+                <li>fileinfo extension</li>
+                <li>cURL</li>
+                <li>allow_url_fopen</li>
+                <li>ignore_user_abort</li>
+              </ul>
+<br>
+            ( <i>Anyway, you can check if the requirements are successfully installed while the installation wizard</i> )
+<br><br>
+            </li>
+            <li>After that, you must enter database information</li>
+            <li>Once you have wrote the information, please click the install button.</li>
+            <li>After the installation is done, you'll get a page that looks like
+
+              <br><br>
+<img src="images/screenshots/install-done.PNG" alt=""><br><br>
+
+            </li>
+
+            <li>Now you can login to control panel via <code>http://YOURSITE.com/cplogin</code> 
+              <br><br>
+                <ul>
+                  <li>Login Username : <b> <i>monster</i>   </b></li>
+                  <li>Login Password : <b> <i>1234 </i>  </b></li>
+                </ul>
+              
+              </li>
+
+          </ul>
+
+          <div class="alert alert-danger"> <b>DANGER:</b>  After the installation is finished, please make sure to delete the folder "install".          </div>
+        
+        </section>
+
+        <section class="js-section">
+          <h3 class="section__title">Setup Cloud Drives</h3>
+          <p>In this section, you will learn how to set up cloud drives. Only few cloud storages (google drive, dropbox and onedrive) are presented in detail here. Because it's a bit difficult.</p>
+
+          <h4>Google Drive</h4>
+          <a href="https://youtu.be/NotOPqGzdGI" target="_blank"><i><code>https://youtu.be/NotOPqGzdGI</code></i></a>
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NotOPqGzdGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
+          <ul>
+            <li>Usefull Links
+
+              <ul>
+                <li>Google API console : <a href="https://console.cloud.google.com/apis" target="_blank"> <code>https://console.cloud.google.com/apis</code> </a> </li>
+                <li>Google OAuth playground : <a href="https://developers.google.com/oauthplayground" target="_blank"> <code>https://developers.google.com/oauthplayground</code> </a> </li>
+              </ul>
+
+            </li>
+          </ul>
+
+          <h4>Dropbox</h4>
+          <a href="https://youtu.be/-i2rg9C5LaU" target="_blank"><i><code>https://youtu.be/-i2rg9C5LaU</code></i></a>
+
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-i2rg9C5LaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <ul>
+            <li>Usefull Links
+
+              <ul>
+                <li>Dropbox app console : <a href="https://www.dropbox.com/developers/apps" target="_blank"> <code>https://www.dropbox.com/developers/apps</code> </a> </li>
+              </ul>
+
+            </li>
+          </ul>
+          <h4>One Drive</h4>
+          <a href="https://youtu.be/v9Ndvu5bVIg" target="_blank"><i><code>https://youtu.be/v9Ndvu5bVIg</code></i></a>
+
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/v9Ndvu5bVIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <ul>
+            <li>Usefull Links
+
+              <ul>
+                <li>MS azure : <a href="https://portal.azure.com/#home" target="_blank"> <code>https://portal.azure.com/</code> </a> </li>
+                <li>Redirect URI : <code><b>https://yoursite.com</b>/oauth/drive/onedrive</code> </li>
+              </ul>
+
+            </li>
+          </ul>
+
+
+          <hr>
+        </section>
+
+        <section class="js-section">
+          <h3 class="section__title">Support</h3>
+          <p>If you need support, or if you're facing any problems, please contact us via the following methods. <br> 
+            Please note that our respond can take up to 2 business days.
+          </p>
+
+          <ul>
+            <li>Live Chat - <a href="https://phpcloudmonster.com" target="_blank"> <code>https://phpcloudmonster.com</code> </a> </li>
+            <li>Author Email - <a href="mailto:johnanta89@gmail.com"> <code>johnanta89@gmail.com</code> </a> </li>
+            <li>Codester Support - <a href="https://www.codester.com/johnanta" target="_blank"> <code>https://www.codester.com/johnanta</code> </a></li>
+          </ul>
+
+          <p>Availability to answer questions, Answering technical questions about item’s features, Assistance with reported bugs and issues, Help with included 3rd party assets.
+
+            Any customization request will be ignored.</p>
+
+
+          <hr>
+        </section>
+
+        
+        <section class="js-section">
+          <h3 class="section__title">FAQ</h3>
+          
+          <ul class="faq-list">
+            
+
+            <li> <b> When is the next update coming up?</b> <br>
+              There is no specified date for new updates.
+            </li>
+            <li> <b> Which host provider do you recommend for CloudMonster?</b> <br>
+              We recommend you to use <a href="https://contabo.com/en/"><mark>contabo.com</mark></a>
+            </li>
+            <li> <b> Can I use this platform in more than one domain?</b> <br>
+              With one purchase code you can use it on one domain name. You need to get new license for each domain name, please check Envato Help Page for more information about licenses 
+
+            </li>
+            <li> <b> Why I get 404 when I visit control panel?</b> <br>
+              Please make sure that the .htaccess file is uploaded to your server and updated to latest version. <br>
+              If you use Nginx in your server, please setup nginx config related to this script . Open the home directory of the script, you should be able to find <i>nginx.config</i>
+            </li>
+            <li> <b> Why I get 500 internal service error?</b> <br>
+              This may cuase due folder permission error, or apache issue, please contact your host provider and let them fix it for you.
+            </li>
+            <li> <b>Where Can I change login username and password ?</b> <br>
+             You can change login username and password from the account section in settings page (Settings -> Account).
+            </li>
+            <li> <b> Files not upload to cloud drives, why?</b> <br>
+              There may be several reasons, but firstly Make sure <span class="code code--inline">max_execution_time</span>  is increased and <span class="code code--inline">ignore_user_abort</span> is enabled in PHP configuration file. Contact me if not yet uploaded.
+            </li>
+
+            <li> <b>Can I add multiple drive accounts from the same drive type ?</b> <br>
+              Yes you can. For example you can add several google drive accounts (or any other) 
+            </li>
+            <li> <b>
+              Public file or bucket link redirects are a bit slow, why?</b> <br>
+             To speed up it, disable <i>analytics system</i> from settings page (Settings -> general) 
+            </li>
+            <li> <b>How to change the number of file upload processes at once ?</b> <br>
+              Change <i>Max upload processes  </i> from settings page  (Settings -> cloud upload) 
+             </li>
+ 
+            <li> <b>How to change file upload speed to cloud drives ?</b> <br>
+             Change <i>chunk size</i> from settings page  (Settings -> cloud upload) 
+            </li>
+ 
+            <li> <b>How long does it take to check if a cloud file exists? ?</b> <br>
+              As the default value every 24 hours, however, you can change the <i>File check time
+              </i>  on the Settings page (Settings -> Cloud File / Folder).
+   
+             </li>
+
+            
+
+          </ul>
+
+
+
+          <hr>
+        </section>
+
+        <section class="js-section">
+          <h3 class="section__title">Final Note</h3>
+
+          <p>
+            Once again, thank you so much for purchasing this script. As I said at the beginning, I'd be glad to help you if you have any questions 
+            relating to this script. No guarantees, but I'll do my best to assist. 
+
+
+
+          </p>
+
+          <img src="images/signature.png"style="width:150px;background:#000" alt="">
+
+          <hr>
+        </section>
+
+      </article>
+    </div>
+
+    <footer class="footer"> Lasted Updated At 2021.12.23 </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
+</html>

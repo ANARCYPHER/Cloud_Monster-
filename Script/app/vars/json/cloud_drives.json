@@ -1,0 +1,217 @@
+{
+  "google" : {
+      "baseUrl" : "https://drive.google.com",
+      "sharedFileUrl" : "{ BASE_URL }/file/d/{ FILE_CODE }",
+      "authDataFormat" : {
+        "userInput" : {
+          "email" :  {
+            "label" : "Email",
+            "placeholder" : "your_google_mail@gmail.com"
+          },
+          "client_id" :  {
+            "label" : "Client ID",
+            "placeholder" : "1069747768007-921ei3a0h6pms63q0mbt0t0mldbnjqif.apps.googleusercontent.com"
+          },
+          "client_secret" :  {
+            "label" : "Client Secret",
+            "placeholder" : "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"
+          },
+          "refresh_token" : {
+            "label" : "Refresh Token",
+            "placeholder" : "1//0454Nt51_ZHiYCgYIARAAGAQSNwF-L9IrT5guZSGVKEwi0doM8eHftczXbozKBw4L.."
+          }
+        },
+        "systemInput" : {
+          "access_token" : "",
+          "token_last_updated" : ""
+        }
+      },
+    "isActive" : 1
+  },
+
+  "dropbox" : {
+    "baseUrl" : "https://www.dropbox.com",
+    "sharedFileUrl" : "",
+    "authDataFormat" : {
+      "userInput" : {
+        "client_id" : {
+          "label" : "Client ID",
+          "placeholder" : "sp2bouskgolx6al"
+        },
+        "client_secret" : {
+          "label" : "Client Secret",
+          "placeholder" : "j3i9hft88itzync"
+        },
+        "access_token" : {
+          "label" : "Access Token",
+          "placeholder" : "oaXaFZohBsYASAAAAAAAAUa46PMB4jfFpBoXaP7Jn1ZfKh3urBfFDjpeZSSXnPM3"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "onedrive" : {
+    "baseUrl" : "https://www.onedrive.com",
+    "sharedFileUrl" : "",
+    "authDataFormat" : {
+      "userInput" : {
+        "client_id" : {
+          "label" : "Client ID",
+          "placeholder" : "3551cbcf-abdf-4970-b107-195cb9a5e74e"
+        },
+        "client_secret" : {
+          "label" : "Client Secret",
+          "placeholder" : "xv67Q~DbLlsvCo21uyba1yS5qVaaGhQzx_4hE"
+        }
+      },
+      "systemInput" : {
+        "token_type" : "",
+        "scope" : "",
+        "expires_in" : "",
+        "ext_expires_in" : "",
+        "access_token" : "",
+        "refresh_token" : "",
+        "created" : ""
+      }
+    },
+    "isActive" : 1
+
+  },
+
+  "uptobox" : {
+    "baseUrl" : "https://www.uptobox.com",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "token" : {
+          "label" : "API Token",
+          "placeholder" : "cfd40af5392c07be5c24d0c179f1eeecb8579q"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "ddownload" : {
+    "baseUrl" : "https://ddownload.com",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "key" : {
+          "label" : "API Key",
+          "placeholder" : "242991rgfwqreak6dzoxrw"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "mixdrop" : {
+    "baseUrl" : "http://mixdrop.co",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "key" : {
+          "label" : "API Key",
+          "placeholder" : "242991rgfwqreak6dzoxrw"
+        },
+        "email" : {
+          "label" : "Account Email",
+          "placeholder" : "my-mixdrop@gmail.com"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "videovard" : {
+    "baseUrl" : "https://videovard.sx",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "key" : {
+          "label" : "API Key",
+          "placeholder" : "242991rgfwqreak6dzoxrw"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "dropapk" : {
+    "baseUrl" : "https://drop.download",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "required" : {
+        "key" : "69166al9fu8d0ac1bpaty"
+      }
+    },
+    "isActive" : 0
+  },
+
+  "doodstream" : {
+    "baseUrl" : "https://doodstream.com/d/",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "key" : {
+          "label" : "API Key",
+          "placeholder" : "cfd40af5392c07be5c24d0c179f1eeecb8579q"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "streamtape" : {
+    "baseUrl" : "https://streamtape.com",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "key" : {
+          "label" : "API Key",
+          "placeholder" : "yGbiDeg0zoUaxp"
+        },
+        "login" : {
+          "label" : "Login Token",
+          "placeholder" : "e5f17df671430882c9e7"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "streamlare" : {
+    "baseUrl" : "https://streamlare.com",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "key" : {
+          "label" : "API Key",
+          "placeholder" : "yGbiDeg0zoUaxp"
+        },
+        "login" : {
+          "label" : "Login Token",
+          "placeholder" : "e5f17df671430882c9e7"
+        }
+      }
+    },
+    "isActive" : 1
+  },
+
+  "streamsb" : {
+    "baseUrl" : "https://watchsb.com",
+    "sharedFileUrl" : "{ BASE_URL }/{ FILE_CODE }",
+    "authDataFormat" : {
+      "userInput" : {
+        "key" : {
+          "label" : "API Key",
+          "placeholder" : "18606ltce849tgc1z0akb"
+        }
+      }
+    },
+    "isActive" : 1
+  }
+}
+

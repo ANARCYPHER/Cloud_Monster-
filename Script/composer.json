@@ -1,0 +1,9 @@
+{
+    "require": {
+        "google/apiclient": "^2.11",
+        "kunalvarma05/dropbox-php-sdk": "^0.2.1",
+        "tarask/onedrive": "^1.1",
+        "phpfastcache/phpfastcache": "^9.0",
+      "ext-curl": "*"
+    }
+}

@@ -1,0 +1,48 @@
+.site-cm-box {
+    width: 185px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #222f3e;
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    font-size: 14px;
+}
+
+.site-cm-box ul.site-cm-group li {
+    height: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 28px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: default
+}
+
+.site-cm-box .site-cm-separ {
+    height: 0;
+    border-top: 1px solid #d2d2d2
+}
+
+.site-cm-box ul.site-cm-group li:hover,
+.site-cm-box ul.site-cm-group li.hover {
+    color: #222f3e;
+    background-color: #fff
+}
+
+.site-cm-box ul.site-cm-group li>.site-cm-box {
+    left: 185px;
+    margin-top: -36px
+}
+
+.site-cm-box ul.site-cm-group li:hover>.site-cm-box,
+.site-cm-box ul.site-cm-group li.hover>.site-cm-box {
+    color: #000
+}
+
+.site-cm-icon {
+    color: #666;
+    width: 20px
+}

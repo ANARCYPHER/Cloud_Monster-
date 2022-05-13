@@ -1,0 +1,114 @@
+methods:
+    getThumbnail:
+        path: 'me/drive/items/{itemId}/thumbnails'
+        httpMethod: 'GET'
+        resultKey:
+            - value
+            - 0
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    createFolderOnRoot:
+        path: 'me/drive/root/children'
+        httpMethod: 'POST'
+
+    createFolder:
+        path: 'me/drive/items/{parentItemId}/children'
+        httpMethod: 'POST'
+        parameters:
+            parentItemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    get:
+        path: 'me/drive/items/{itemId}'
+        httpMethod: 'GET'
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    update:
+        path: 'me/drive/items/{itemId}'
+        httpMethod: 'PATCH'
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    delete:
+        path: 'me/drive/items/{itemId}'
+        httpMethod: 'DELETE'
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    getItemByPath:
+        path: 'me/drive/root:/{itemPath}'
+        httpMethod: 'GET'
+        parameters:
+            itemPath:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    createUploadSession:
+        path: 'me/drive/items/{folderId}:/{fileName}:/createUploadSession'
+        httpMethod: 'POST'
+        parameters:
+            folderId:
+                location: 'path'
+                type: 'string'
+                required: true
+            fileName:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    uploadBytesToTheUploadSession:
+        httpMethod: 'PUT'
+
+    replaceExistingFile:
+        path: 'me/drive/items/{itemId}/content'
+        httpMethod: 'PUT'
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    move:
+        path: 'me/drive/items/{itemId}'
+        httpMethod: 'PATCH'
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    getDownloadUrl:
+        path: 'me/drive/items/{itemId}/content'
+        httpMethod: 'GET'
+        httpAllowRedirect: true
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
+
+    shareLink:
+        path: 'me/drive/items/{itemId}/createLink'
+        httpMethod: 'POST'
+        parameters:
+            itemId:
+                location: 'path'
+                type: 'string'
+                required: true
